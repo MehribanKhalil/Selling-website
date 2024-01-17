@@ -1,0 +1,13 @@
+.nav{
+    .active{
+        color: var(--main-color);
+    }
+    .nav-item{
+        transition:  all .4s ease;
+
+        &:hover{
+        color: var(--main-color);
+            transition:  all .4s ease;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;1000&display=swap');
+
+:root{
+  --main-color:#F16821;
+}
+
+h1{
+  font-size: clamp(2.1875rem, -1.3281rem + 11.25vw, 5rem);
+}
+
+body{
+  font-family: 'Mulish', sans-serif;
+}
+
+
+.section{
+  @apply px-5 md:px-16 lg:px-32 xl:px-48
+}
+
+
+.page{
+  @apply min-h-[70vh]
+}
