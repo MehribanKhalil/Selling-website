@@ -4,6 +4,8 @@ import MainLayout from './layouts/MainLayout';
 import Home from './pages/Home';
 import Admin from './pages/Admin';
 import Basket from './pages/Basket';
+import Detailpage from './pages/DetailPage';
+import WishlistPage from './pages/Wishlist';
 const helmetContext = {};
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/admin" element={<Admin/>} />
           <Route path="/basket" element={<Basket/>} />
+          <Route path="/wishlist" element={<WishlistPage/>} />
+          <Route path="/:id" element={<Detailpage/>} />
 
           </Route>
         </Routes>
